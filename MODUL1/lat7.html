@@ -1,0 +1,25 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+        <title>Lat7</title>
+
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    </head>
+    <body>
+        <div id="app">
+            <button v-on:click="pesan">Tampil Pesan</button>
+        </div>
+
+        <script>
+            var app = new Vue({
+                el: "#app",
+                methods: {
+                    pesan: function() {
+                        alert("Selamat Belajar Vue.JS")
+                    }
+                }
+            })
+        </script>
+    </body>
+</html>
